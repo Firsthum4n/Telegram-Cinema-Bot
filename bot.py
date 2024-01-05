@@ -16,8 +16,9 @@ apihelper.proxy = {
     'https': keys.TG_PROXY_KEY
 }
 
-bot = telebot.AsyncTeleBot("740006252:AAE3pgQoJgfzBBKOl-Rew6Cxj1lqRpooG3k")
-
+bot = telebot.AsyncTeleBot("6811351174:AAEIqd6qQn4hi2x3PdS_-J_jP7SGUCJX090")
+# ("740006252:AAE3pgQoJgfzBBKOl-Rew6Cxj1lqRpooG3k")
+# bot = telebot.Telebot('6811351174:AAEIqd6qQn4hi2x3PdS_-J_jP7SGUCJX090')
 
 @bot.message_handler(commands=["start"])
 def handle_start(message):
